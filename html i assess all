@@ -1,0 +1,290 @@
+Forms
+Q1
+
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <form action="display.php" method="POST">
+        <h1>Registration form</h1>
+        <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"></div>
+        <div>
+        <label for="userName">Username:</label>
+        <input type="text" id="userName" name="userName"></div>
+        <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"></div>
+        <div>
+        <label for="mobilenumber">MobileNumber:</label>
+        <input type="number" name="mobilenumber" id="mobilenumber" maxlength="10"/></div>
+        <div>
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" maxlength="200"/></textarea></div>
+        <div>
+        <button name="register">Register</button></div>
+    </form>
+
+</body>
+
+</html>
+
+
+CSS
+Q1
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Website</title>
+    </head>
+    <body>
+        <h1 style="color:#356ecc">Pink Frag Event Organizer</h1>
+        <hr>
+        <h2 style="color:#f9b222">Service Description</h2>
+        <p>We are indulged in offering a Promotional Event Management. 
+            These services are provided by our team of professionals as 
+            per the requirement of the client. 
+            These services are highly praised for their features like 
+            sophisticated technology, effective results and reliability. We offer 
+            these services in a definite time frame and at affordable rates.
+        </p>
+        <hr>
+        <h2 style="color:#f9b222"> Features</h2>
+        <h5>Customized services</h5>
+        <h5>On-time completion</h5>
+        <h5>Execution in tandem with clients demand</h5>
+        <hr>
+        <h2 style="color:#f9b222">About Us</h2>
+        <p> Pink Frag Event is a reputed organization, 
+            which has come into being in 2009, as a Sole Proprietorship
+            Firm, with a sole aim of achieving the trust and support of 
+            large customers. We have indulged our all endeavors towards 
+            offering trustworthy Wedding Event Management, Promotional
+            Event Management, Birthday Party Management and many more. 
+            All our services are reliable and offered keeping the exact 
+            customers preferences and choice in mind. To offer these 
+            services, we have hired specialized professionals, who are 
+            capable of understanding as well as accomplishing the specific 
+            customers desires.<br />
+            We have adopted modern technology, 
+            to cope up with the challenges of industry. We keep all quality 
+            parameters in mind, so that we cannot make any compromise in 
+            terms of the excellence of products. </p>
+        <hr>
+        <h2 style="color:#f9b222">Contact Us</h2>
+        <h3>Address</h3>
+        <p>14/509A,Sterlin Street,Nungambakkam
+        Chennai - 600034.</p>
+        <h3>Mobile</h3>
+        <p>Manager-9596645125</p>
+        <h3>Landline</h3>
+        <p>0422-2727272</p>
+        <h3>EMail</h3>
+        <p>pinkfragevent123@gmail.com   pinkfragOfficial@gmail.com
+        </p>
+    </body>
+</html>
+
+
+Q2
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="background-color:#ffb6c1">
+        
+        <h1>Pink Frag Event Organizer</h1>  
+        <hr>
+        <h2>Service Description</h2>
+        <p>We are indulged in offering a Promotional Event Management. 
+            These services are provided by our team of professionals as 
+            per the requirement of the client. 
+            These services are highly praised for their features like 
+            sophisticated technology, effective results and reliability. We offer 
+            these services in a definite time frame and at affordable rates.
+        </p>
+        <hr>
+        <h2> Features</h2>
+        <h5>Customized services</h5>
+        <h5>On-time completion</h5>
+        <h5>Execution in tandem with clients demand</h5>
+        <hr>
+        <h2>About Us</h2>
+        <p> Pink Frag Event is a reputed organization, 
+            which has come into being in 2009, as a Sole Proprietorship
+            Firm, with a sole aim of achieving the trust and support of 
+            large customers. We have indulged our all endeavors towards 
+            offering trustworthy Wedding Event Management, Promotional
+            Event Management, Birthday Party Management and many more. 
+            All our services are reliable and offered keeping the exact 
+            customers’ preferences and choice in mind. To offer these 
+            services, we have hired specialized professionals, who are 
+            capable of understanding as well as accomplishing the specific 
+            customers’ desires. We have adopted modern technology, 
+            to cope up with the challenges of industry. We keep all quality 
+            parameters in mind, so that we cannot make any compromise in 
+            terms of the excellence of products. </p>
+        <hr>
+        <h2>Contact Us</h2>
+        <h3>Address</h3>
+        <p>14/509A,Sterlin Street,Nungambakkam
+        Chennai - 600034.</p>
+        <h3>Mobile</h3>
+        <p>Manager-9596645125</p>
+        <h3>Landline</h3>
+        <p>0422-2727272</p>
+        <h3>EMail</h3>
+        <p>pinkfragevent123@gmail.com   pinkfragOfficial@gmail.com
+        </p>
+    </body>
+</html>
+
+
+
+
+
+Working with text,color,background and table
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+tr:nth-child(even) {
+	background-color: #e0f0e9;
+}
+tr:nth-child(odd) {
+	background-color: #b3edcf;
+}
+</style>
+</head>
+<body>
+<!-- <center> -->
+  <h1>Event Schedule</h1>
+  <div>          
+		<table>
+		<tr><th>Name</th><th>Venue</th><th>Start Time</th><th>End Time</th></tr>
+		<tr><td>Corporate Events</td><td>RVS Hall, 3rd Floor</td><td>4.5.2018 9.00AM</td><td>4.5.2018 12.00AM</td></tr>
+		<tr><td>Wedding Planning</td><td>Sri Plus Thirumana Mahal</td><td>1.1.2019 7.00AM</td><td>1.1.2019 9.00AM</td></tr>
+		<tr><td>Product Launches</td><td>RVS Hall, 2nd Floor</td><td>4.5.2018 2.00PM</td><td>4.5.2018 5.00PM</td></tr>
+		<tr><td>Seminor on Cloud Computing</td><td>Vivekanandha Auditorium</td><td>18.12.2018 8.30AM</td><td>18.12.2018 1.00PM</td></tr>
+		<tr><td>Heavenly Fashion</td><td>Bath Record Office</td><td>21.3.2018 5.00PM</td><td>21.3.2018 8.00PM</td></tr>
+		<tr><td>Gala Dinners</td><td>City Tower, Hall No 2</td><td>12.1.2018 7.00 PM</td><td>12.1.2018 10.00 PM</td></tr>
+		<tr><td>Award Ceremony</td><td>Hindustan Auditorium</td><td>11.11.2018 9.00 AM</td><td>11.11.2018 5.00 PM</td></tr>
+		</table>
+  </div>
+<!-- </center> -->
+</body>
+</html>
+
+
+
+
+
+
+
+Layout
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        ul{
+            /* Enter your text here! */
+            list-style-type: none;
+            background-color: #87ceeb;
+            padding: 10px 0px;
+            overflow: hidden;
+        }
+        li{
+            /* Enter your text here! */
+            float: left;
+        }
+        a{
+            /* Enter your text here! */
+            background-color: #87ceeb;
+            color: #000000;
+            width: 20px;
+            border: 1px solid #808080;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+        }
+        a:hover
+        {
+            /* Enter your text here! */
+            background-color: #4169e1;
+            color: #ffffff;
+            width: 20px;
+            border: 1px solid #808080;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li><a href="#" id="home">Home</a></li>
+    <li><a href="#" id="news">News</a></li>
+    <li><a href="#" id="contact">Contact</a></li>
+    <li><a href="#" id="about">About</a></li>
+</ul>
+ <h3>Pink Frag Event Organizer</h3>
+ <p>We are indulged in offering a Promotional Event Management.These services are provided by our team of professionals as per the requirement of the client. These services are highly praised for their features like sophisticated technology, effective results and reliability. We offer these services in a definite time frame and at affordable rates.</p>
+ <p>Pink Frag Event is a reputed organization,which has come into being in 2009, as a Sole Proprietorship Firm, with a sole aim of achieving the trust and support of large customers. We have indulged our all endeavors towards offering trustworthy Wedding Event Management, Promotional Event Management, Birthday Party Management and many more.To offer these services, we have hired specialized professionals, who are capable of understanding as well as accomplishing the specific customers' desires.</p>
+ 
+</body>
+</html>
+
+
+
+contest css3
+-----------------------
+
+<!DOCTYPE html>
+<html>
+    <style>
+		h2{
+			 text-align: center;
+		}
+		.image {
+			 float: left;
+			 width: 50%;
+             height: auto;
+		}
+		#container {
+			position: relative;
+		}
+		#overlay{
+			overflow: hidden;
+            transition:1s ease; 
+            width:0px;
+            position: absolute;
+			height: 100%;
+		}
+		#text {
+		   text-align:  justify;
+           transform: translate(-270px, -100px);
+           position: absolute;
+		}
+	</style>
+
+	<!--Enter your text here-->
+	<h2> Wedding Event  </h2>
+	<div id="container">
+	<img  src="image.jpg" class="image">
+	
+	<div id="overlay">
+	<div id ="text">
+	<p>A wedding is a ceremony where two people or a couple are united in marriage. Wedding traditions and customs vary greatly between cultures, ethnic groups, religions, countries, and social classes. Most wedding ceremonies involve an exchange of marriage vows by the couple, presentation of a gift (offering, ring(s), symbolic item, flowers, money), and a public proclamation of marriage by an authority figure or celebrant. Special wedding garments are often worn, and the ceremony is sometimes followed by a wedding reception. Music, poetry, prayers or readings from religious texts or literature are also commonly incorporated into the ceremony.
+	</p>
+	</div>
+	</div>
+	</div>
+</html>
+
+
+
+
